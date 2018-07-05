@@ -11,7 +11,6 @@ class App < Sinatra::Base
 
     post '/teams' do
       binding.pry
-      heroes = params["team"].delete("heroes")
     end
 
 end
