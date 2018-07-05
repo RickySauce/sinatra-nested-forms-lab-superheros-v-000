@@ -8,8 +8,8 @@
     <%=@team.name%>
     <p>Team Motto: <%=@team.motto%></p> 
     <%Hero.all.each do |hero|%>
-    <p><%=hero.name %></p>
-    <p><%=hero.power %></p>
+    <p>Hero Name: <%=hero.name %></p>
+    <p>Hero Power: <%=hero.power %></p>
     <p><%=hero.biography %></p>
     <%end %>
   </body>
