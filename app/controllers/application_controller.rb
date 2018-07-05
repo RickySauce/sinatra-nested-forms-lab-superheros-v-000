@@ -9,7 +9,6 @@ class App < Sinatra::Base
     end
 
     post '/teams' do
-      binding.pry
       heroes = params[:team].delete("heroes")
       binding.pry
       erb :team
